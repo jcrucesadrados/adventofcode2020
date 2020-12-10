@@ -196,7 +196,7 @@ public class NorthPolePassport implements Passport {
 		this.requiredFields.add("ecl");
 		this.requiredFields.add("pid");
 		
-		// Set the password
+		// Set the passport
 		this.passport = new HashMap<String, String>();
 		String[] passportFields = passport.split(" ");
 		for(int i=0; i<passportFields.length; i++) {
