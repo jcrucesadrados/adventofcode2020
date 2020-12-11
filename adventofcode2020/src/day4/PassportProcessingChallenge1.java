@@ -57,7 +57,6 @@ public class PassportProcessingChallenge1 {
 			String line = scanner.nextLine(); // Use nextLine instead next() need to get empty lines
 			
 			if(line.isBlank() || !scanner.hasNext()) {
-				
 				// System.out.println(passport);
 				if(checkPassport(passport, mandatoryElements)) {
 					numberOfPassports++;
