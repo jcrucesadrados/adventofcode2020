@@ -85,11 +85,6 @@ public class HandheldHaltingChallenge2 {
 				}
 			}
 		}
-
-		
-		
-		
-		
 		
 		System.out.println("Te value of carriedSum is: "+carriedSum);
 		
